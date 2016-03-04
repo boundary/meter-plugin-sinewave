@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "name": "foo",
+      "amplitude": "1.0",
+      "frequency": "0.01",
+      "noise": true,
+      "mu": "1.0",
+      "sigma": "0.1",
+      "sample": 1000
+    },
+    {
+      "name": "bar",
+      "amplitude": "1.0",
+      "frequency": "0.01",
+      "noise": false,
+      "mu": "1.0",
+      "sigma": "0.1",
+      "sample": 1000
+    },
+    {
+      "name": "red",
+      "amplitude": "1.0",
+      "frequency": "0.01",
+      "noise": false,
+      "mu": "1.0",
+      "sigma": "0.1",
+      "sample": 1000
+    },
+    {
+      "name": "green",
+      "amplitude": "1.0",
+      "frequency": "0.01",
+      "noise": false,
+      "mu": "1.0",
+      "sigma": "0.1",
+      "sample": 1000
+    },
+    {
+      "name": "blue",
+      "amplitude": "1.0",
+      "frequency": "0.01",
+      "noise": false,
+      "mu": "1.0",
+      "sigma": "0.1",
+      "sample": 1000
+    }
+  ],
+  "pollInterval": 5000
+}
