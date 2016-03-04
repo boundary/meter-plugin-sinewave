@@ -30,8 +30,8 @@ def output_measurements(item):
             break
         amplitude = sw.data[1]
         with lock:
-	    if item['noise']:
-                amplitude = amplitude + gauss(mu, sigma) 
+            if item['noise']:
+                amplitude = amplitude + gauss(mu, sigma)
             print("{0} {1} {2}".format("SINE_WAVE_AMPLITUDE", amplitude, source))
             sys.stdout.flush()
         time.sleep(poll)
